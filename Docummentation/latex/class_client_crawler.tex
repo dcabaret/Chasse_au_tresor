@@ -1,0 +1,168 @@
+\hypertarget{class_client_crawler}{}\section{Référence de la classe Client\+Crawler}
+\label{class_client_crawler}\index{Client\+Crawler@{Client\+Crawler}}
+
+
+{\ttfamily \#include $<$clientcrawler.\+h$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Client\+Crawler\+:
+% FIG 0
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_client_crawler_a07b217751bd9e1b100330453605a8d7d}{Client\+Crawler} (Q\+Widget $\ast$parent=nullptr)
+\item 
+\hyperlink{class_client_crawler_af66de2d9f7a09978c1deb87c2771df3e}{$\sim$\+Client\+Crawler} ()
+\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Point \hyperlink{class_client_crawler_a0cf23901bc90495a8ca6fcdff7a31379}{pos}
+\end{DoxyCompactItemize}
+\subsection*{Connecteurs privés}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_client_crawler_a36dfc3748d2b194d6e201516bbf661cf}{on\+Q\+Tcp\+Socket\+\_\+connected} ()
+\item 
+void \hyperlink{class_client_crawler_a400f8b758b96d56bf692a0f86cea524b}{on\+Q\+Tcp\+Socket\+\_\+disconnected} ()
+\item 
+void \hyperlink{class_client_crawler_abfd261801481d2315478a9d903f16587}{on\+Q\+Tcp\+Socket\+\_\+error} (Q\+Abstract\+Socket\+::\+Socket\+Error socket\+Error)
+\item 
+void \hyperlink{class_client_crawler_a9e19e93f5eaefcfda0ec3e8567f3d423}{on\+Q\+Tcp\+Socket\+\_\+ready\+Read} ()
+\item 
+void \hyperlink{class_client_crawler_a0a5fe0345063d04e2c9acc5734b4a0d6}{on\+\_\+push\+Button\+Connexion\+\_\+clicked} ()
+\item 
+void \hyperlink{class_client_crawler_a832bf9d34a93b10784f3564be2346adf}{on\+\_\+push\+Button\+Up\+\_\+clicked} ()
+\item 
+void \hyperlink{class_client_crawler_a3f9ad2ca60a388d5d3d0436af7dd3756}{on\+\_\+push\+Button\+Down\+\_\+clicked} ()
+\item 
+void \hyperlink{class_client_crawler_aadabe491ca10e5499026d3b1b0de99a9}{on\+\_\+push\+Button\+Left\+\_\+clicked} ()
+\item 
+void \hyperlink{class_client_crawler_a4deee7315beda4b1c67baf0801512dcc}{on\+\_\+push\+Button\+Right\+\_\+clicked} ()
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_client_crawler_a257f1a01d1a6f032f430112e14110048}{Envoyer\+Commande} (Q\+Char commande)
+\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Client\+Crawler $\ast$ \hyperlink{class_client_crawler_a6263947f12b0ca34753f4cbb43d6d4fd}{ui}
+\item 
+Q\+Grid\+Layout $\ast$ \hyperlink{class_client_crawler_ac32bb3ac1812334a2232d462f65e28d2}{grille}
+\item 
+Q\+Tcp\+Socket $\ast$ \hyperlink{class_client_crawler_a7796ea05089d10bd1c5a6158b8cd8c89}{socket\+Client}
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_client_crawler_a07b217751bd9e1b100330453605a8d7d}\label{class_client_crawler_a07b217751bd9e1b100330453605a8d7d}} 
+\index{Client\+Crawler@{Client\+Crawler}!Client\+Crawler@{Client\+Crawler}}
+\index{Client\+Crawler@{Client\+Crawler}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{Client\+Crawler()}{ClientCrawler()}}
+{\footnotesize\ttfamily Client\+Crawler\+::\+Client\+Crawler (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_client_crawler_af66de2d9f7a09978c1deb87c2771df3e}\label{class_client_crawler_af66de2d9f7a09978c1deb87c2771df3e}} 
+\index{Client\+Crawler@{Client\+Crawler}!````~Client\+Crawler@{$\sim$\+Client\+Crawler}}
+\index{````~Client\+Crawler@{$\sim$\+Client\+Crawler}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{$\sim$\+Client\+Crawler()}{~ClientCrawler()}}
+{\footnotesize\ttfamily Client\+Crawler\+::$\sim$\+Client\+Crawler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_client_crawler_a257f1a01d1a6f032f430112e14110048}\label{class_client_crawler_a257f1a01d1a6f032f430112e14110048}} 
+\index{Client\+Crawler@{Client\+Crawler}!Envoyer\+Commande@{Envoyer\+Commande}}
+\index{Envoyer\+Commande@{Envoyer\+Commande}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{Envoyer\+Commande()}{EnvoyerCommande()}}
+{\footnotesize\ttfamily void Client\+Crawler\+::\+Envoyer\+Commande (\begin{DoxyParamCaption}\item[{Q\+Char}]{commande }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_client_crawler_a0a5fe0345063d04e2c9acc5734b4a0d6}\label{class_client_crawler_a0a5fe0345063d04e2c9acc5734b4a0d6}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Connexion\+\_\+clicked@{on\+\_\+push\+Button\+Connexion\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Connexion\+\_\+clicked@{on\+\_\+push\+Button\+Connexion\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Connexion\+\_\+clicked}{on\_pushButtonConnexion\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Connexion\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_client_crawler_a3f9ad2ca60a388d5d3d0436af7dd3756}\label{class_client_crawler_a3f9ad2ca60a388d5d3d0436af7dd3756}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Down\+\_\+clicked@{on\+\_\+push\+Button\+Down\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Down\+\_\+clicked@{on\+\_\+push\+Button\+Down\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Down\+\_\+clicked}{on\_pushButtonDown\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Down\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_client_crawler_aadabe491ca10e5499026d3b1b0de99a9}\label{class_client_crawler_aadabe491ca10e5499026d3b1b0de99a9}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Left\+\_\+clicked@{on\+\_\+push\+Button\+Left\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Left\+\_\+clicked@{on\+\_\+push\+Button\+Left\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Left\+\_\+clicked}{on\_pushButtonLeft\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Left\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_client_crawler_a4deee7315beda4b1c67baf0801512dcc}\label{class_client_crawler_a4deee7315beda4b1c67baf0801512dcc}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Right\+\_\+clicked@{on\+\_\+push\+Button\+Right\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Right\+\_\+clicked@{on\+\_\+push\+Button\+Right\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Right\+\_\+clicked}{on\_pushButtonRight\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Right\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_client_crawler_a832bf9d34a93b10784f3564be2346adf}\label{class_client_crawler_a832bf9d34a93b10784f3564be2346adf}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Up\+\_\+clicked@{on\+\_\+push\+Button\+Up\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Up\+\_\+clicked@{on\+\_\+push\+Button\+Up\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Up\+\_\+clicked}{on\_pushButtonUp\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Up\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_client_crawler_a36dfc3748d2b194d6e201516bbf661cf}\label{class_client_crawler_a36dfc3748d2b194d6e201516bbf661cf}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+Q\+Tcp\+Socket\+\_\+connected@{on\+Q\+Tcp\+Socket\+\_\+connected}}
+\index{on\+Q\+Tcp\+Socket\+\_\+connected@{on\+Q\+Tcp\+Socket\+\_\+connected}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+Q\+Tcp\+Socket\+\_\+connected}{onQTcpSocket\_connected}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+Q\+Tcp\+Socket\+\_\+connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_client_crawler_a400f8b758b96d56bf692a0f86cea524b}\label{class_client_crawler_a400f8b758b96d56bf692a0f86cea524b}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+Q\+Tcp\+Socket\+\_\+disconnected@{on\+Q\+Tcp\+Socket\+\_\+disconnected}}
+\index{on\+Q\+Tcp\+Socket\+\_\+disconnected@{on\+Q\+Tcp\+Socket\+\_\+disconnected}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+Q\+Tcp\+Socket\+\_\+disconnected}{onQTcpSocket\_disconnected}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+Q\+Tcp\+Socket\+\_\+disconnected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_client_crawler_abfd261801481d2315478a9d903f16587}\label{class_client_crawler_abfd261801481d2315478a9d903f16587}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+Q\+Tcp\+Socket\+\_\+error@{on\+Q\+Tcp\+Socket\+\_\+error}}
+\index{on\+Q\+Tcp\+Socket\+\_\+error@{on\+Q\+Tcp\+Socket\+\_\+error}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+Q\+Tcp\+Socket\+\_\+error}{onQTcpSocket\_error}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+Q\+Tcp\+Socket\+\_\+error (\begin{DoxyParamCaption}\item[{Q\+Abstract\+Socket\+::\+Socket\+Error}]{socket\+Error }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_client_crawler_a9e19e93f5eaefcfda0ec3e8567f3d423}\label{class_client_crawler_a9e19e93f5eaefcfda0ec3e8567f3d423}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+Q\+Tcp\+Socket\+\_\+ready\+Read@{on\+Q\+Tcp\+Socket\+\_\+ready\+Read}}
+\index{on\+Q\+Tcp\+Socket\+\_\+ready\+Read@{on\+Q\+Tcp\+Socket\+\_\+ready\+Read}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+Q\+Tcp\+Socket\+\_\+ready\+Read}{onQTcpSocket\_readyRead}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+Q\+Tcp\+Socket\+\_\+ready\+Read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_client_crawler_ac32bb3ac1812334a2232d462f65e28d2}\label{class_client_crawler_ac32bb3ac1812334a2232d462f65e28d2}} 
+\index{Client\+Crawler@{Client\+Crawler}!grille@{grille}}
+\index{grille@{grille}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{grille}{grille}}
+{\footnotesize\ttfamily Q\+Grid\+Layout$\ast$ Client\+Crawler\+::grille\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_client_crawler_a0cf23901bc90495a8ca6fcdff7a31379}\label{class_client_crawler_a0cf23901bc90495a8ca6fcdff7a31379}} 
+\index{Client\+Crawler@{Client\+Crawler}!pos@{pos}}
+\index{pos@{pos}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{pos}{pos}}
+{\footnotesize\ttfamily Q\+Point Client\+Crawler\+::pos}
+
+\mbox{\Hypertarget{class_client_crawler_a7796ea05089d10bd1c5a6158b8cd8c89}\label{class_client_crawler_a7796ea05089d10bd1c5a6158b8cd8c89}} 
+\index{Client\+Crawler@{Client\+Crawler}!socket\+Client@{socket\+Client}}
+\index{socket\+Client@{socket\+Client}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{socket\+Client}{socketClient}}
+{\footnotesize\ttfamily Q\+Tcp\+Socket$\ast$ Client\+Crawler\+::socket\+Client\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_client_crawler_a6263947f12b0ca34753f4cbb43d6d4fd}\label{class_client_crawler_a6263947f12b0ca34753f4cbb43d6d4fd}} 
+\index{Client\+Crawler@{Client\+Crawler}!ui@{ui}}
+\index{ui@{ui}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Client\+Crawler$\ast$ Client\+Crawler\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{clientcrawler_8h}{clientcrawler.\+h}\item 
+\hyperlink{clientcrawler_8cpp}{clientcrawler.\+cpp}\end{DoxyCompactItemize}
